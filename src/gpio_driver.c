@@ -1,7 +1,7 @@
-#include "../include/gpio_driver.h"
-#include "../include/soc_memory_map.h"
-#include "../include/gpio.h"
-#include "../include/mmio.h"
+#include "gpio_driver.h"
+#include "soc_memory_map.h"
+#include "gpio.h"
+#include "mmio.h"
 #include <stdio.h>
 #include <stdint.h>
 

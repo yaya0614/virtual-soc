@@ -1,11 +1,11 @@
 // CPU 怎麼使用 UART
-#include "../include/uart_driver.h"
-#include "../include/uart.h"
-#include "../include/soc_memory_map.h"
-#include "../include/mmio.h"
-#include "../include/gpio.h"
-#include "../include/gpio_driver.h"
-#include "../include/firmware.h"
+#include "uart_driver.h"
+#include "uart.h"
+#include "soc_memory_map.h"
+#include "mmio.h"
+#include "gpio.h"
+#include "gpio_driver.h"
+#include "firmware.h"
 #include <stdio.h>
 
 #define UART_RX_BUF_SIZE 16

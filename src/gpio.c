@@ -1,4 +1,4 @@
-#include "../include/gpio.h"
+#include "gpio.h"
 #include <stdio.h>
 GPIO_Registers gpio0 = {0};
 

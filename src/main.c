@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include "../include/gpio.h"
-#include "../include/soc_memory_map.h"
-#include "../include/timer.h"
-#include "../include/mmio.h"
-#include "../include/firmware.h"
-#include "../include/testbench.h"
-#include "../include/cpu.h"
+#include "gpio.h"
+#include "soc_memory_map.h"
+#include "timer.h"
+#include "mmio.h"
+#include "firmware.h"
+#include "testbench.h"
+#include "cpu.h"
 
 
 int main() {

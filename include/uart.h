@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 #include <stdbool.h>
-#include "../include/soc_memory_map.h"
+#include "soc_memory_map.h"
 
 
 typedef struct {

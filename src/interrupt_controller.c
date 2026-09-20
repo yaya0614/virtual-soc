@@ -1,7 +1,7 @@
-#include "../include/interrupt_controller.h"
-#include "../include/gpio.h"
-#include "../include/timer.h"
-#include "../include/uart.h"
+#include "interrupt_controller.h"
+#include "gpio.h"
+#include "timer.h"
+#include "uart.h"
 #include <stdio.h>
 
 bool interrupt_controller_irq_pending (void){

@@ -1,9 +1,9 @@
-#include "../include/mmio.h"
-#include "../include/gpio.h"
-#include "../include/timer.h"
-#include "../include/uart.h"
+#include "mmio.h"
+#include "gpio.h"
+#include "timer.h"
+#include "uart.h"
 #include <stdio.h>
-#include "../include/soc_memory_map.h"
+#include "soc_memory_map.h"
 
 void mmio_write(uint32_t address, uint32_t value) {
     if (address >= GPIO0_BASE && address < (GPIO0_BASE + GPIO0_SIZE)) { // GPIO Range

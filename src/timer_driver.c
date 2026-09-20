@@ -1,7 +1,7 @@
-#include "../include/timer_driver.h"
-#include "../include/soc_memory_map.h"
-#include "../include/mmio.h"
-#include "../include/timer.h"
+#include "timer_driver.h"
+#include "soc_memory_map.h"
+#include "mmio.h"
+#include "timer.h"
 #include <stdio.h>
 static volatile uint32_t timer_event_count = 0;
 

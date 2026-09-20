@@ -1,10 +1,10 @@
-#include "../include/cpu.h"
+#include "cpu.h"
 #include <stdbool.h>
-#include "../include/interrupt_controller.h"
-#include "../include/firmware.h"
-#include "../include/gpio.h"
-#include "../include/timer.h"
-#include "../include/uart.h"
+#include "interrupt_controller.h"
+#include "firmware.h"
+#include "gpio.h"
+#include "timer.h"
+#include "uart.h"
 #include <stdio.h>
 
 void cpu_handle_interrupt(void){

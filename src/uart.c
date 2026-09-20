@@ -1,7 +1,7 @@
 // 實際模擬 uart hardware model 動作
-#include "../include/uart.h"
-#include "../include/soc_memory_map.h"
-#include "../include/testbench.h"
+#include "uart.h"
+#include "soc_memory_map.h"
+#include "testbench.h"
 #include <stdio.h>
 
 // static 表示只有 uart.c 可以改變 uart0裡面的值，其他檔案都需要透過 uart_write() 來改變 uart0 裡面的值，這樣可以避免其他檔案直接改變 uart0 裡面的值，造成不可預期的行為

@@ -1,4 +1,4 @@
-#include "../include/timer.h"
+#include "timer.h"
 #include <stdio.h>
 #define TIMER_INT_PENDING (1U << 0)
 timer_registers timer0 = {0};

@@ -1,13 +1,13 @@
 // CPU firmware 邏輯 
-#include "../include/firmware.h"
-#include "../include/gpio.h"
-#include "../include/gpio_driver.h"
-#include "../include/timer.h"
-#include "../include/timer_driver.h"
-#include "../include/uart_driver.h"
-#include "../include/mmio.h"
-#include "../include/soc_memory_map.h"
-#include "../include/cpu.h"
+#include "firmware.h"
+#include "gpio.h"
+#include "gpio_driver.h"
+#include "timer.h"
+#include "timer_driver.h"
+#include "uart_driver.h"
+#include "mmio.h"
+#include "soc_memory_map.h"
+#include "cpu.h"
 #include <stdint.h>
 #include <stdio.h>
 
