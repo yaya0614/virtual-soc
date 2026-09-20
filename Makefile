@@ -7,7 +7,7 @@ SRC = src/main.c \
       src/cpu.c \
       src/firmware.c \
       src/interrupt_controller.c \
-      src/testbench.c \
+      test/testbench.c \
       src/mmio.c \
       src/gpio.c \
       src/gpio_driver.c \
